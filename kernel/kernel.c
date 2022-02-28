@@ -33,7 +33,8 @@ void user_input(char *input) {
         kprint(", physical address: ");
         kprint(phys_str);
         kprint("\n");
-    }
+        
+    } 
     kprint("You said: ");
     kprint(input);
     kprint("\n> ");
