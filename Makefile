@@ -7,7 +7,8 @@ OBJ = ${C_SOURCES:.c=.o cpu/interrupt.o}
 CC = ~/opt/cross/bin/i386-elf-gcc
 GDB = ~/opt/cross/bin/i386-elf-gdb
 # -g: Use debugging symbols in gcc
-CFLAGS = -g
+# -g: Use debugging symbols in gcc
+CFLAGS = -g 
 
 # First rule is run by default
 os-image.bin: boot/bootsect.bin kernel.bin
